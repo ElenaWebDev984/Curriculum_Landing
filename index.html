@@ -3,9 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Curriculum_example</title>
 </head>
-<body>
+<body class="body">
+    <header class="header">
+        <span class="header-span">IT-INCUBATOR</span>
+    </header>
+
+    <section class="main-section">
+        <h1 class="main-title">Elena Web Developer</h1>
+        <p class="main-text">I study in IT-INCUBATOR. I love HTML, CSS, JavaScript and everything related to frontend development.</p>
+        <img class="main-image" src="https://abbtech.az/storage/uploads/files/1687508692_1615533694-frontendd.svg" alt="">
+    </section>
+    <section class="about-section">
+        <select class="select-pre">
+            <option value="">Paris</option>
+            <option value="" selected>London</option>
+            <option value="">Milan</option>
+        </select>
+        <div>
+            <h2 class="section-title">Favorite Frameworks</h2>
+            <ul class="frameworks-list">
+                <li>React</li>
+                <li>Angular</li>
+                <li>Vue</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="section-title">Favorite book rating</h2>
+            <ol class="books-list">
+                <li>HTML5+CSS3. The basics of modern web design.</li>
+                <li>HTML5, CSS3 and JavaScript. Comprehensive guide.</li>
+                <li>HTML5+CSS3. Development of websites for all browsers and devices. 2nd edition</li>
+            </ol>
+        </div>
+        <div>
+            <h2 class="section-title">My skills</h2>
+            <label class="label">
+                <input type="checkbox" checked name="" id="1">
+                HTML5
+            </label>
     
+            <label class="label">
+                <input type="checkbox" checked name="" id="2">
+                CSS3
+            </label>
+    
+            <label class="label">
+                <input type="checkbox" name="" id="3">
+                JavaScript
+            </label>
+    
+            <label class="label">
+                <input type="checkbox" name="" id="4">
+                Jquery
+            </label>
+    
+            <label class="label">
+                <input type="checkbox" name="" id="5">
+                React
+            </label>
+        </div>
+        
+        <input class="text-field" type="text" placeholder="New skill">
+        <button class="btn">Add</button>
+        
+        <hr class="line">
+
+        <table class="about-table-pre" border="1">
+            <tr>
+                <th>name</th>
+                <th>Product</th>
+                <th>Number</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Monitor</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Keyboard</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Mouse</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total:</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer class="footer-pre">
+        <a class="footer-link" href="https://it-incubator.io/">it-incubator</a>
+    </footer>
 </body>
 </html>
